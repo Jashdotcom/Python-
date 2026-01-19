@@ -15,7 +15,7 @@ while (running):
     if computer=="rock" and user=="paper" or computer=="scissors" and user=="rock" or computer=="paper" and user=="scissors":
         print("\nYOU WON 🏆")
     elif computer=="paper" and user=="rock" or computer=="rock" and user=="scissors" or computer=="scissors" and user=="paper":
-        print("\nYOU LOST ❌")
+        print("\nYOU LOSE ❌")
     elif computer=="rock" and user=="rock" or computer=="paper" and user=="paper" or computer=="scissors" and user=="scissors":
         print("\nTIE 🤝")
     else:
@@ -28,6 +28,7 @@ while (running):
     if not play_again == "Y":
         running = False
         print("\nBye,Thanks for Playin'🙌🏼")
+
 
 
 
